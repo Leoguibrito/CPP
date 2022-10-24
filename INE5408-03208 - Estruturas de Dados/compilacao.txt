@@ -1,8 +1,0 @@
-Compilação dos arquivos em C e C++
-
-1 - Criar arquivo executavel no terminal
-    ex: gcc teste.c -o teste.exe (Para C)
-        g++ teste.cpp -o teste.cpp (Para C++)
-
-2 - Executá-lo :D
-    ex: ./teste.exe
