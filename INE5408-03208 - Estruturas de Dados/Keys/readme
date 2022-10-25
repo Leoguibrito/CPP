@@ -1,0 +1,1 @@
+Escreva uma função para, dado o texto de um trecho de programa de entrada (na forma de string), verifique se todos os abre chave ('{') e fecha chave ('}') estão corretamente aninhados.
