@@ -109,6 +109,7 @@ T structures::LinkedStack<T>::pop() {
     T pointer_val = top_ -> data();
     top_ = top_ -> next();
     delete pointer;
+    size_--;
     return pointer_val;
 }
 
