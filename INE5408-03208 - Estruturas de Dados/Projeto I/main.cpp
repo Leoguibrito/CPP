@@ -156,6 +156,7 @@ void file_verification(string arquivo, structures::LinkedQueue<string> &png_info
                                 aux.x =  ponto.x + 1;
                                 aux.y =  ponto.y; 
                                 fila.enqueue(aux);
+                                R[aux.x][aux.y] = label;
                             }
                         }
                         if (ponto.y > 0) {
