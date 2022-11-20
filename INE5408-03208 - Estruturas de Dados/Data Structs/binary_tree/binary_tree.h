@@ -85,18 +85,18 @@ private:
                 }
             } else {
                 if (right && left) {
-                    Node* tmp = right -> minimum();
-                    data_ = tmp -> data_;
+                    Node* pointer = right -> minimum();
+                    data_ = pointer -> data_;
                     right = right -> remove(data);
                     return this;
                 } else if (right) {
-                    Node* tmp = right;
+                    Node* pointer = right;
                     delete this;
-                    return tmp;
+                    return pointer;
                 } else if (left) {
                     Node* tmp = left;
                     delete this;
-                    return tmp;
+                    return pointer;
                 } else {
                     delete this;
                     return nullptr;
